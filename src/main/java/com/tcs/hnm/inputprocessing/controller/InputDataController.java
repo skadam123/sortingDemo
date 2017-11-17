@@ -1,4 +1,4 @@
-package hello.inputprocessing.controller;
+package com.tcs.hnm.inputprocessing.controller;
 
 import java.util.List;
 
@@ -11,15 +11,25 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import hello.inputprocessing.service.InputGenerationService;
+import com.tcs.hnm.inputprocessing.service.InputGenerationService;
 
+/**
+ * The Class InputDataController.
+ */
 @RestController
 @RequestMapping("/api/v1/")
 public class InputDataController {
  
+ /** The input generation service. */
  @Autowired
  private InputGenerationService inputGenerationService;
   
+ /**
+  * Generate random numbers.
+  *
+  * @param numbersToGenerate the numbers to generate
+  * @return the response entity
+  */
  @RequestMapping(value = "generateRandomNumbers/{numbersToGenerate}", method = RequestMethod.GET)
    public ResponseEntity<Object> generateRandomNumbers(@PathVariable("numbersToGenerate") String numbersToGenerate) {
     
