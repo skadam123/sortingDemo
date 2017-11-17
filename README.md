@@ -9,17 +9,21 @@ Sorting Demo Application in Spring Boot
 # Steps To Run
 
 1. Build the project using following command, the command must be issued from source folder.
+
    mvn clean package
 
 2. Start the project using
+   
    mvn spring-boot:run
    
 Since its spring boot application, we don't need seprate container like Tomcat/Jboss to run the application. The build will automatically generate sort-rest-service-0.1.0.jar which is fat jar contains all dependencies along with embedded Tomcat server.
    
 3. Launch application by hitting 
+   
    http://localhost:8080 in your browser.
 
 4. Build Process in #1 will run unit tests also you can skip test case execution during build using
+   
    mvn clean package -Dmaven.test.skip=true
    
 # Database
