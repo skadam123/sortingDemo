@@ -37,4 +37,15 @@ However current design is monolith as UI and services are clubbed together. In i
 
 Typically these services can run inside containers e.g. dockers so that they are easy to deploy without any additional setup and are easy to scale at any numbers. However docker deployment of this application is not in current scope of the project.
 
+# Steps to Run from Eclipse
 
+1. Click on Import-> Maven -> Existing Maven project.
+  Specify project folder location.
+2. Project is imported right click on pom.xml and select run as Maven Build
+   specify goals as 
+   clean package
+   Project will built inside eclipse.
+ 3. Run application
+    Right click on Application.java and select Run As -> Java Application
+ 4. Launch application by hitting 
+    http://localhost:8080/home.html
