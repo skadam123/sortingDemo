@@ -1,4 +1,4 @@
-package com.tcs.hnm.inputprocessing.exceptions;
+package com.acme.inputprocessing.exceptions;
 
 public class InvalidInputException extends RuntimeException{
   

@@ -1,4 +1,4 @@
-package com.tcs.hnm.sorting.dto;
+package com.acme.sorting.dto;
 
 /**
  * The Class SortedDataDTO.

@@ -1,8 +1,8 @@
-package com.tcs.hnm.sorting.repository;
+package com.acme.sorting.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.tcs.hnm.sorting.dao.SortDataModel;
+import com.acme.sorting.dao.SortDataModel;
 
 /**
  * The Interface SortDataRepository.

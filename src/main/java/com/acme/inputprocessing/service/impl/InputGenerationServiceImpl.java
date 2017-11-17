@@ -1,12 +1,12 @@
-package com.tcs.hnm.inputprocessing.service.impl;
+package com.acme.inputprocessing.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.tcs.hnm.inputprocessing.exceptions.InvalidInputException;
-import com.tcs.hnm.inputprocessing.service.InputGenerationService;
+import com.acme.inputprocessing.exceptions.InvalidInputException;
+import com.acme.inputprocessing.service.InputGenerationService;
 
 /**
  * The Class InputGenerationServiceImpl.
@@ -17,7 +17,7 @@ public class InputGenerationServiceImpl implements InputGenerationService {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.tcs.hnm.inputprocessing.service.InputGenerationService#
+	 * @see com.acme.inputprocessing.service.InputGenerationService#
 	 * generateRandomNumbers(int)
 	 */
 	@Override

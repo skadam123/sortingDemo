@@ -1,4 +1,4 @@
-package com.tcs.hnm.inputprocessing.controller;
+package com.acme.inputprocessing.controller;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tcs.hnm.inputprocessing.service.InputGenerationService;
+import com.acme.inputprocessing.service.InputGenerationService;
 
 /**
  * The Class InputDataController.

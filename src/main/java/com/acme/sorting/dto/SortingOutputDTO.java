@@ -1,4 +1,4 @@
-package com.tcs.hnm.sorting.dto;
+package com.acme.sorting.dto;
 
 import java.util.Arrays;
 import java.util.HashMap;

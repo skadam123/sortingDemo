@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tcs.hnm;
+package com.acme;
 
 import java.util.List;
 
@@ -25,9 +25,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.tcs.hnm.Application;
-import com.tcs.hnm.inputprocessing.exceptions.InvalidInputException;
-import com.tcs.hnm.inputprocessing.service.InputGenerationService;
+import com.acme.Application;
+import com.acme.inputprocessing.exceptions.InvalidInputException;
+import com.acme.inputprocessing.service.InputGenerationService;
 
 /**
  * The Class GreetingControllerTests.

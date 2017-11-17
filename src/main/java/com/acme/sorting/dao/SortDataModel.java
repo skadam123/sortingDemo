@@ -1,4 +1,4 @@
-package com.tcs.hnm.sorting.dao;
+package com.acme.sorting.dao;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

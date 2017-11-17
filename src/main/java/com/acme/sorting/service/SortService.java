@@ -1,7 +1,7 @@
-package com.tcs.hnm.sorting.service;
+package com.acme.sorting.service;
 
-import com.tcs.hnm.sorting.dto.HistoryDTO;
-import com.tcs.hnm.sorting.dto.SortingOutputDTO;
+import com.acme.sorting.dto.HistoryDTO;
+import com.acme.sorting.dto.SortingOutputDTO;
 
 /**
  * The Interface SortService.

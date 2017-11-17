@@ -1,4 +1,4 @@
-package com.tcs.hnm;
+package com.acme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
@@ -15,8 +15,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * The Class Application.
  */
 @SpringBootApplication
-@ComponentScan(basePackages = "com.tcs.hnm")
-@EntityScan(basePackages = "com.tcs.hnm")
+@ComponentScan(basePackages = "com.acme")
+@EntityScan(basePackages = "com.acme")
 @SpringBootConfiguration
 public class Application {
 

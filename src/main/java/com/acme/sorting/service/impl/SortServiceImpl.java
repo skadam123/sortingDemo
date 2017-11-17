@@ -1,4 +1,4 @@
-package com.tcs.hnm.sorting.service.impl;
+package com.acme.sorting.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,12 +14,12 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tcs.hnm.sorting.dao.SortDataModel;
-import com.tcs.hnm.sorting.dto.HistoryDTO;
-import com.tcs.hnm.sorting.dto.SortedDataDTO;
-import com.tcs.hnm.sorting.dto.SortingOutputDTO;
-import com.tcs.hnm.sorting.repository.SortDataRepository;
-import com.tcs.hnm.sorting.service.SortService;
+import com.acme.sorting.dao.SortDataModel;
+import com.acme.sorting.dto.HistoryDTO;
+import com.acme.sorting.dto.SortedDataDTO;
+import com.acme.sorting.dto.SortingOutputDTO;
+import com.acme.sorting.repository.SortDataRepository;
+import com.acme.sorting.service.SortService;
 
 /**
  * The Class SortServiceImpl.
@@ -35,7 +35,7 @@ public class SortServiceImpl implements SortService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tcs.hnm.sorting.service.SortService#selectionSort(java.lang.Integer[])
+	 * com.acme.sorting.service.SortService#selectionSort(java.lang.Integer[])
 	 */
 	@Override
 	@Transactional
@@ -119,7 +119,7 @@ public class SortServiceImpl implements SortService {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.tcs.hnm.sorting.service.SortService#generateHistory()
+	 * @see com.acme.sorting.service.SortService#generateHistory()
 	 */
 	@Override
 	public HistoryDTO generateHistory() {

@@ -1,4 +1,4 @@
-package com.tcs.hnm;
+package com.acme;
 
 import java.util.Arrays;
 
@@ -10,8 +10,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.tcs.hnm.sorting.dto.SortingOutputDTO;
-import com.tcs.hnm.sorting.service.SortService;
+import com.acme.Application;
+import com.acme.sorting.dto.SortingOutputDTO;
+import com.acme.sorting.service.SortService;
 
 
 /**
