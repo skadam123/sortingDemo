@@ -1,4 +1,4 @@
-package com.acme.sorting.service.impl;
+package com.sortdemo.sorting.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,12 +14,12 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.acme.sorting.dao.SortDataModel;
-import com.acme.sorting.dto.HistoryDTO;
-import com.acme.sorting.dto.SortedDataDTO;
-import com.acme.sorting.dto.SortingOutputDTO;
-import com.acme.sorting.repository.SortDataRepository;
-import com.acme.sorting.service.SortService;
+import com.sortdemo.sorting.dao.SortDataModel;
+import com.sortdemo.sorting.dto.HistoryDTO;
+import com.sortdemo.sorting.dto.SortedDataDTO;
+import com.sortdemo.sorting.dto.SortingOutputDTO;
+import com.sortdemo.sorting.repository.SortDataRepository;
+import com.sortdemo.sorting.service.SortService;
 
 /**
  * The Class SortServiceImpl.

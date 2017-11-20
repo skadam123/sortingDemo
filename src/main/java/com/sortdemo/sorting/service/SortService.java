@@ -1,7 +1,7 @@
-package com.acme.sorting.service;
+package com.sortdemo.sorting.service;
 
-import com.acme.sorting.dto.HistoryDTO;
-import com.acme.sorting.dto.SortingOutputDTO;
+import com.sortdemo.sorting.dto.HistoryDTO;
+import com.sortdemo.sorting.dto.SortingOutputDTO;
 
 /**
  * The Interface SortService.

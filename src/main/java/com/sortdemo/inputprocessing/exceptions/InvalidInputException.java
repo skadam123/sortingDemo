@@ -1,4 +1,4 @@
-package com.acme.inputprocessing.exceptions;
+package com.sortdemo.inputprocessing.exceptions;
 
 public class InvalidInputException extends RuntimeException{
   

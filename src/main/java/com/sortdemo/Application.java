@@ -1,4 +1,4 @@
-package com.acme;
+package com.sortdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;

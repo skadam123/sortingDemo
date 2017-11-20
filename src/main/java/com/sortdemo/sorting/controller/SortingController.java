@@ -1,4 +1,4 @@
-package com.acme.sorting.controller;
+package com.sortdemo.sorting.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.acme.sorting.dto.HistoryDTO;
-import com.acme.sorting.dto.InputNumbersDTO;
-import com.acme.sorting.dto.SortingOutputDTO;
-import com.acme.sorting.service.SortService;
+import com.sortdemo.sorting.dto.HistoryDTO;
+import com.sortdemo.sorting.dto.InputNumbersDTO;
+import com.sortdemo.sorting.dto.SortingOutputDTO;
+import com.sortdemo.sorting.service.SortService;
 
 /**
  * The Class SortingController.

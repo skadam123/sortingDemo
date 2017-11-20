@@ -1,4 +1,4 @@
-package com.acme.sorting.dto;
+package com.sortdemo.sorting.dto;
 
 import java.util.List;
 

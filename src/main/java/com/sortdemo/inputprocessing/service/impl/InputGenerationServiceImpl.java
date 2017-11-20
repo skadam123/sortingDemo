@@ -1,12 +1,12 @@
-package com.acme.inputprocessing.service.impl;
+package com.sortdemo.inputprocessing.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.acme.inputprocessing.exceptions.InvalidInputException;
-import com.acme.inputprocessing.service.InputGenerationService;
+import com.sortdemo.inputprocessing.exceptions.InvalidInputException;
+import com.sortdemo.inputprocessing.service.InputGenerationService;
 
 /**
  * The Class InputGenerationServiceImpl.

@@ -1,8 +1,8 @@
-package com.acme.sorting.repository;
+package com.sortdemo.sorting.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.acme.sorting.dao.SortDataModel;
+import com.sortdemo.sorting.dao.SortDataModel;
 
 /**
  * The Interface SortDataRepository.
