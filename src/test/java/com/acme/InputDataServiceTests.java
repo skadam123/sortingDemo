@@ -25,9 +25,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.acme.Application;
-import com.acme.inputprocessing.exceptions.InvalidInputException;
-import com.acme.inputprocessing.service.InputGenerationService;
+import com.sortdemo.Application;
+import com.sortdemo.inputprocessing.exceptions.InvalidInputException;
+import com.sortdemo.inputprocessing.service.InputGenerationService;
 
 /**
  * The Class GreetingControllerTests.
